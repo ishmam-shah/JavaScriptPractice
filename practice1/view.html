@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice1</title>
+    <script src="../library/jquery.min.js"></script>
+    <script src="../library/bootstrap.min.css"></script>
+    <link rel="stylesheet" type="text/css" href="../library/bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <textarea id="inputString" class="form-control" rows="4" onkeydown="whenTextAreaChanged()" onchange="whenTextAreaChanged()" onkeyup="whenTextAreaChanged()" ></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3>You can Enter 100 characters.When u enter more than 80 chars,warning will be given</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-lg-6">
+                <div id="enteredCharNo"></div>
+            </div>
+            <div class="col-lg-6">
+                <div id="restCharNo"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-lg-6">
+                <table id="eachCharAmountTable">
+                    <thead>
+                        <tr></tr>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
